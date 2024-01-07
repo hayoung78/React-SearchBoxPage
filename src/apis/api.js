@@ -20,7 +20,7 @@ const ApiUrl = "http://localhost:3000";
 //         console.error(`Error fetching data:`);
 //         throw error;
 //     }
-// };
+// }
 const searchJsonRequest = (url, params) => {
     return axios.get(`${ApiUrl}/${url}`, {
         headers: {
